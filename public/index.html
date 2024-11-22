@@ -24,9 +24,6 @@
                     <a class="nav-link" href="index.html"><i class="fa-solid fa-house fa-lg"></i></a>
                 </li>
                 <li class="nav-item mr-4">
-                    <a class="nav-link" href="#"><i class="fa-solid fa-calendar-check fa-lg"></i></a>
-                </li>
-                <li class="nav-item mr-4">
                     <a class="nav-link" href="#" id="profileIcon"><i class="fa-regular fa-user fa-lg"></i></a>
                 </li>
                 <li class="nav-item mr-4">
@@ -45,54 +42,19 @@
 
         <!-- Service Selection -->
         <div class="row">
-            <div class="col-md-4">
-                <div class="card service-card">
-                    <div class="card-body">
-                        <h5 class="card-title">Haircut</h5>
-                        <p class="card-text">Get a stylish haircut from our professional stylists. Duration: 40 minutes</p>
-                        <p class="card-text"><strong>Price:</strong> $20</p>
-                        <button class="btn btn-primary btn-block book-btn" data-service="Haircut">Book Now</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card service-card">
-                    <div class="card-body">
-                        <h5 class="card-title">Manicure</h5>
-                        <p class="card-text">Pamper yourself with a relaxing manicure session. Duration: 45 minutes</p>
-                        <p class="card-text"><strong>Price:</strong> $30</p>
-                        <button class="btn btn-primary btn-block book-btn" data-service="Manicure">Book Now</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card service-card">
-                    <div class="card-body">
-                        <h5 class="card-title">Facial</h5>
-                        <p class="card-text">Enjoy a refreshing facial treatment. Duration: 30 minutes</p>
-                        <p class="card-text"><strong>Price:</strong> $35</p>
-                        <button class="btn btn-primary btn-block book-btn" data-service="Facial">Book Now</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card service-card">
-                    <div class="card-body">
-                        <h5 class="card-title">Hair colour</h5>
-                        <p class="card-text">Transform your look with our vibrant hair color services, offering a wide range of colour types to achieve perfect shade. Duration: 60 minutes</p>
-                        <p class="card-text"><strong>Price:</strong> $35</p>
-                        <button class="btn btn-primary btn-block book-btn" data-service="Facial">Book Now</button>
-                    </div>
-                </div>
-            </div>
         </div>
+
+        <!-- Slots container-->
+        <div class="container" id="slotsContainer">
+        </div>
+
 
         <!-- Available Slots Modal -->
         <div class="modal fade" id="slotsModal" tabindex="-1" role="dialog" aria-labelledby="slotsModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="slotsModalLabel">Available Slots for <span id="serviceName"></span></h5>
+                        <h5 class="modal-title" id="slotsModalLabel">Available Slots <span id="serviceName"></span></h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
@@ -157,3 +119,8 @@
     <script src="js/index.js"></script>
 </body>
 </html>
+
+
+
+
+
